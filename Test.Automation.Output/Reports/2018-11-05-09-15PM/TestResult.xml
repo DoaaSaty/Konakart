@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="80" result="Failed" total="19" passed="18" failed="1" inconclusive="0" skipped="0" asserts="18" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-11-05 19:15:03Z" end-time="2018-11-05 19:26:53Z" duration="710.620269">
+  <command-line><![CDATA[nunit3-console.exe  E:\Automation\Autoscoring_Automation\Automated.Tests\bin\Debug\Automated.Tests.dll --where "cat == SmokeTests" --labels=All --out=TestResult.txt --work=E:\Automation\Autoscoring_Automation\Test.Automation.Output\Reports\2018-11-05-09-15PM]]></command-line>
+  <filter>
+    <cat>SmokeTests</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1089" name="Automated.Tests.dll" fullname="Automated.Tests.dll" runstate="Runnable" testcasecount="80" result="Failed" site="Child" start-time="2018-11-05 19:15:04Z" end-time="2018-11-05 19:26:53Z" duration="709.860423" total="19" passed="18" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="E:\Automation\Autoscoring_Automation\packages\NUnit.ConsoleRunner.3.9.0\tools" machine-name="DSATY-10-10170" user="doaa.saty" user-domain="ITWORX" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="E:\Automation\Autoscoring_Automation\Test.Automation.Output\Reports\2018-11-05-09-15PM" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7024" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1090" name="Automated" fullname="Automated" runstate="Runnable" testcasecount="80" result="Failed" site="Child" start-time="2018-11-05 19:15:04Z" end-time="2018-11-05 19:26:53Z" duration="709.843680" total="19" passed="18" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+      <properties />
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1091" name="Tests" fullname="Automated.Tests" runstate="Runnable" testcasecount="80" result="Failed" site="Child" start-time="2018-11-05 19:15:04Z" end-time="2018-11-05 19:26:53Z" duration="709.843322" total="19" passed="18" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1092" name="Scripts" fullname="Automated.Tests.Scripts" runstate="Runnable" testcasecount="80" result="Failed" site="Child" start-time="2018-11-05 19:15:04Z" end-time="2018-11-05 19:26:53Z" duration="709.843233" total="19" passed="18" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="0-1096" name="Login" fullname="Automated.Tests.Scripts.Login" runstate="Runnable" testcasecount="50" result="Failed" site="Child" start-time="2018-11-05 19:15:04Z" end-time="2018-11-05 19:26:53Z" duration="709.843191" total="19" passed="18" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="0-1048" name="SmokeTests" fullname="Automated.Tests.Scripts.Login.SmokeTests" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2018-11-05 19:15:04Z" end-time="2018-11-05 19:26:53Z" duration="709.839351" total="19" passed="18" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="0-1049" name="LoginToApplication" fullname="Automated.Tests.Scripts.Login.SmokeTests.LoginToApplication" methodname="LoginToApplication" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1653565111" result="Passed" start-time="2018-11-05 19:15:04Z" end-time="2018-11-05 19:15:18Z" duration="14.452169" asserts="1">
+                <properties>
+                  <property name="Order" value="1" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1050" name="SearchByExperimentName" fullname="Automated.Tests.Scripts.Login.SmokeTests.SearchByExperimentName" methodname="SearchByExperimentName" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="395712914" result="Passed" start-time="2018-11-05 19:15:18Z" end-time="2018-11-05 19:15:42Z" duration="23.741389" asserts="1">
+                <properties>
+                  <property name="Order" value="2" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1051" name="ValidatePagingComponents" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidatePagingComponents" methodname="ValidatePagingComponents" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="473416551" result="Passed" start-time="2018-11-05 19:15:42Z" end-time="2018-11-05 19:16:15Z" duration="32.858526" asserts="1">
+                <properties>
+                  <property name="Order" value="3" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1052" name="ValidateSearchByMarkerName" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateSearchByMarkerName" methodname="ValidateSearchByMarkerName" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1372085200" result="Passed" start-time="2018-11-05 19:16:15Z" end-time="2018-11-05 19:16:43Z" duration="28.303735" asserts="1">
+                <properties>
+                  <property name="Order" value="4" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1053" name="SearchByMarkerNameWithExpandingRows" fullname="Automated.Tests.Scripts.Login.SmokeTests.SearchByMarkerNameWithExpandingRows" methodname="SearchByMarkerNameWithExpandingRows" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1116716413" result="Passed" start-time="2018-11-05 19:16:43Z" end-time="2018-11-05 19:17:32Z" duration="48.633870" asserts="1">
+                <properties>
+                  <property name="Order" value="5" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1054" name="ValidateReadingScorePreviewWindowIsDisplayed" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateReadingScorePreviewWindowIsDisplayed" methodname="ValidateReadingScorePreviewWindowIsDisplayed" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1274598577" result="Passed" start-time="2018-11-05 19:17:32Z" end-time="2018-11-05 19:18:09Z" duration="37.269711" asserts="1">
+                <properties>
+                  <property name="Order" value="6" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1055" name="ValidateNavigationInReadingScoreWindow" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateNavigationInReadingScoreWindow" methodname="ValidateNavigationInReadingScoreWindow" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="924095044" result="Passed" start-time="2018-11-05 19:18:09Z" end-time="2018-11-05 19:18:53Z" duration="44.205787" asserts="1">
+                <properties>
+                  <property name="Order" value="7" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1056" name="ValidateTheDownloadReadingBtnIsWorking" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateTheDownloadReadingBtnIsWorking" methodname="ValidateTheDownloadReadingBtnIsWorking" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="818395291" result="Passed" start-time="2018-11-05 19:18:53Z" end-time="2018-11-05 19:19:43Z" duration="49.623091" asserts="1">
+                <properties>
+                  <property name="Order" value="8" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+                <output><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+]]></output>
+              </test-case>
+              <test-case id="0-1057" name="ValidateTheTaskDetailsWindowIsShowingUp" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateTheTaskDetailsWindowIsShowingUp" methodname="ValidateTheTaskDetailsWindowIsShowingUp" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="2108516788" result="Passed" start-time="2018-11-05 19:19:43Z" end-time="2018-11-05 19:20:46Z" duration="62.961600" asserts="1">
+                <properties>
+                  <property name="Order" value="9" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+                <output><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+]]></output>
+              </test-case>
+              <test-case id="0-1058" name="ValidateTheTableViewTabIsLoading" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateTheTableViewTabIsLoading" methodname="ValidateTheTableViewTabIsLoading" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1004797824" result="Passed" start-time="2018-11-05 19:20:46Z" end-time="2018-11-05 19:21:45Z" duration="58.909371" asserts="1">
+                <properties>
+                  <property name="Order" value="10" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+                <output><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+]]></output>
+              </test-case>
+              <test-case id="0-1059" name="ValidateThePlateViewTabIsLoading" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateThePlateViewTabIsLoading" methodname="ValidateThePlateViewTabIsLoading" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1458993904" result="Passed" start-time="2018-11-05 19:21:45Z" end-time="2018-11-05 19:22:45Z" duration="60.659037" asserts="1">
+                <properties>
+                  <property name="Order" value="11" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+                <output><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+]]></output>
+              </test-case>
+              <test-case id="0-1060" name="ValidateThePlotViewTabIsLoading" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateThePlotViewTabIsLoading" methodname="ValidateThePlotViewTabIsLoading" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1103997269" result="Failed" label="Error" start-time="2018-11-05 19:22:45Z" end-time="2018-11-05 19:23:33Z" duration="48.021462" asserts="0">
+                <properties>
+                  <property name="Order" value="12" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+                <failure>
+                  <message><![CDATA[OpenQA.Selenium.UnhandledAlertException : unexpected alert open: {Alert text : Please select one marker only}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)]]></message>
+                  <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Automated.Utilities.AutomationAbstractions.CoreActions.AutomatedActions.WaitActions.WaitForWebElementToBeClickable(AutomatedElement element, Int32 timeoutInSeconds)
+   at Automated.Application.Pages.PlotView.PlotViewPage.SelectFirstMarker() in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\PlotView\PlotViewPage.cs:line 153
+   at Automated.Tests.Scripts.Login.SmokeTests.ValidateThePlotViewTabIsLoading() in E:\Automation\Autoscoring_Automation\Automated.Tests\Scripts\SmokeTests\SmokeTests.cs:line 513]]></stack-trace>
+                </failure>
+                <output><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+]]></output>
+              </test-case>
+              <test-case id="0-1061" name="ChangeScreenModeToEnquiry" fullname="Automated.Tests.Scripts.Login.SmokeTests.ChangeScreenModeToEnquiry" methodname="ChangeScreenModeToEnquiry" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1630894900" result="Passed" start-time="2018-11-05 19:23:33Z" end-time="2018-11-05 19:24:22Z" duration="49.089231" asserts="1">
+                <properties>
+                  <property name="Order" value="13" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+                <output><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+]]></output>
+              </test-case>
+              <test-case id="0-1062" name="ChangeScreenModeToWork" fullname="Automated.Tests.Scripts.Login.SmokeTests.ChangeScreenModeToWork" methodname="ChangeScreenModeToWork" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="524182303" result="Passed" start-time="2018-11-05 19:24:22Z" end-time="2018-11-05 19:25:12Z" duration="49.528415" asserts="1">
+                <properties>
+                  <property name="Order" value="14" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+                <output><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+]]></output>
+              </test-case>
+              <test-case id="0-1063" name="ValidateTheFourTechnologiesArePopulatedInTheDDL" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateTheFourTechnologiesArePopulatedInTheDDL" methodname="ValidateTheFourTechnologiesArePopulatedInTheDDL" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="153054172" result="Passed" start-time="2018-11-05 19:25:12Z" end-time="2018-11-05 19:25:29Z" duration="17.389735" asserts="1">
+                <properties>
+                  <property name="Order" value="15" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1064" name="VerifythatNexarHasNoFileTypeDdl" fullname="Automated.Tests.Scripts.Login.SmokeTests.VerifythatNexarHasNoFileTypeDdl" methodname="VerifythatNexarHasNoFileTypeDdl" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1735606803" result="Passed" start-time="2018-11-05 19:25:29Z" end-time="2018-11-05 19:25:52Z" duration="23.192919" asserts="1">
+                <properties>
+                  <property name="Order" value="16" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1065" name="VerifyThatTaqmanHasCorrectFileTypes" fullname="Automated.Tests.Scripts.Login.SmokeTests.VerifyThatTaqmanHasCorrectFileTypes" methodname="VerifyThatTaqmanHasCorrectFileTypes" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1859913846" result="Passed" start-time="2018-11-05 19:25:52Z" end-time="2018-11-05 19:26:11Z" duration="18.289427" asserts="1">
+                <properties>
+                  <property name="Order" value="17" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1066" name="ValidateTheDownloadTaskFileLinkIsWorking" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateTheDownloadTaskFileLinkIsWorking" methodname="ValidateTheDownloadTaskFileLinkIsWorking" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="134692978" result="Passed" start-time="2018-11-05 19:26:11Z" end-time="2018-11-05 19:26:32Z" duration="21.295309" asserts="1">
+                <properties>
+                  <property name="Order" value="18" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+              <test-case id="0-1067" name="ValidateViewReportLinkIsWorking" fullname="Automated.Tests.Scripts.Login.SmokeTests.ValidateViewReportLinkIsWorking" methodname="ValidateViewReportLinkIsWorking" classname="Automated.Tests.Scripts.Login.SmokeTests" runstate="Runnable" seed="1638396849" result="Passed" start-time="2018-11-05 19:26:32Z" end-time="2018-11-05 19:26:53Z" duration="21.404589" asserts="1">
+                <properties>
+                  <property name="Order" value="19" />
+                  <property name="Category" value="SmokeTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

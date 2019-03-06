@@ -1,0 +1,47 @@
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.LoginToApplication
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.SearchByExperimentName
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidatePagingComponents
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateSearchByMarkerName
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.SearchByMarkerNameWithExpandingRows
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateReadingScorePreviewWindowIsDisplayed
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateNavigationInReadingScoreWindow
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateTheDownloadReadingBtnIsWorking
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateTheTaskDetailsWindowIsShowingUp
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateTheTableViewTabIsLoading
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateThePlateViewTabIsLoading
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateThePlotViewTabIsLoading
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ChangeScreenModeToEnquiry
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ChangeScreenModeToWork
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at Automated.Application.Pages.CheckResults.CheckResultsPage.IsAlertShown(IWebDriver driver) in E:\Automation\Autoscoring_Automation\Automated.Application\Pages\CheckResults\CheckResultsPage.cs:line 87
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateTheFourTechnologiesArePopulatedInTheDDL
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.VerifythatNexarHasNoFileTypeDdl
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.VerifyThatTaqmanHasCorrectFileTypes
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateTheDownloadTaskFileLinkIsWorking
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsProduction.ValidateViewReportLinkIsWorking

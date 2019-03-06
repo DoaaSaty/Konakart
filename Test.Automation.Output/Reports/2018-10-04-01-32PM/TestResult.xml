@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-10-04 11:32:07Z" end-time="2018-10-04 11:32:07Z" duration="0.253450">
+  <command-line><![CDATA[nunit3-console.exe  E:\Automation\Autoscoring_Automation\bin\Debug\Automated.Tests.dll --where "cat == LoginTests" --labels=All --out=TestResult.txt --work=E:\Automation\Autoscoring_Automation\Test.Automation.Output\Reports\2018-10-04-01-32PM]]></command-line>
+  <filter>
+    <cat>LoginTests</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1" name="Automated.Tests.dll" fullname="E:\Automation\Autoscoring_Automation\bin\Debug\Automated.Tests.dll" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="File not found: E:\Automation\Autoscoring_Automation\bin\Debug\Automated.Tests.dll" />
+    </properties>
+    <reason>
+      <message>File not found: E:\Automation\Autoscoring_Automation\bin\Debug\Automated.Tests.dll</message>
+    </reason>
+  </test-suite>
+</test-run>

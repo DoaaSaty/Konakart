@@ -1,0 +1,57 @@
+﻿[
+  {
+    "KeyName": "gameBtn",
+    "LocatorType": "LinkText",
+    "LocatorValue": "Games",
+    "IsLazyLoaded": "true"
+  },
+  {
+    "KeyName": "rightSliderController",
+    "LocatorType": "XPath",
+    "LocatorValue": "//div[@id='price-range-slider']/span[2]",
+    "IsLazyLoaded": "true"
+  },
+  {
+    "KeyName": "leftSliderController",
+    "LocatorType": "XPath",
+    "LocatorValue": "//div[@id='price-range-slider']/span[1]",
+    "IsLazyLoaded": "true"
+  },
+  {
+    "KeyName": "slider",
+    "LocatorType": "XPath",
+    "LocatorValue": "//div[@id='price-range-slider']/div",
+    "IsLazyLoaded": "true"
+  },
+  {
+     "KeyName": "gameItemsList",
+    "LocatorType": "XPath",
+    "LocatorValue": "//div[@class='items']/ul/li",
+    "IsLazyLoaded": "true"
+    
+  },
+  {
+    "KeyName": "shoppingMenuItem",
+    "LocatorType": "XPath",
+    "LocatorValue": "//*[@class='shopping-cart-title top-bar-menu-title']",
+    "IsLazyLoaded": "true"
+
+  },
+  {
+
+    "KeyName": "shoppingBagItemText",
+    "LocatorType": "XPath",
+    "LocatorValue": "//*[@class='shopping-cart-title top-bar-menu-title']/span",
+    "IsLazyLoaded": "true"
+
+  },
+  {
+     "KeyName": "addToCartItem",
+    "LocatorType": "XPath",
+    "LocatorValue": "//*[@class='item-buttons-container']/div/a",
+    "IsLazyLoaded": "true"
+    
+  }
+]
+
+

@@ -1,0 +1,9 @@
+=> Automated.Tests.Scripts.Login.SmokeTests.LoginToApplication
+=> Automated.Tests.Scripts.Login.SmokeTests.SearchByExperimentName
+=> Automated.Tests.Scripts.Login.SmokeTests.ValidatePagingComponents
+=> Automated.Tests.Scripts.Login.SmokeTests.ValidateSearchByMarkerName
+=> Automated.Tests.Scripts.Login.SmokeTests.SearchByMarkerNameWithExpandingRows
+=> Automated.Tests.Scripts.Login.SmokeTests.ValidateReadingScorePreviewWindowIsDisplayed
+=> Automated.Tests.Scripts.Login.SmokeTests.ValidateNavigationInReadingScoreWindow
+=> Automated.Tests.Scripts.Login.SmokeTests.ValidateTheDownloadReadingBtnIsWorking
+=> Automated.Tests.Scripts.Login.SmokeTests.ValidateTheTaskDetailsWindowIsShowingUp

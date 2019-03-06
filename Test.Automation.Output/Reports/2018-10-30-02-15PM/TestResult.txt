@@ -1,0 +1,2 @@
+=> Automated.Tests.Scripts.Login.SmokeTests.LoginToApplication
+=> Automated.Tests.Scripts.Login.SmokeTests.SearchByExperimentName

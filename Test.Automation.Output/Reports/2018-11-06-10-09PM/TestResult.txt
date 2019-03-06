@@ -1,0 +1,8 @@
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.LoginToApplication
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.SearchByExperimentName
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.ValidateExternalScoringLinkRedirectsToCheckResultsPage
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.ValidatePagingComponents
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.ValidateTheTaskStatusAfterClickingValidateBtn
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.ValidateTheTaskStatusAfterClickingReleaseTaskBtn
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.ValidateRescoringCompletedTask
+=> Automated.Tests.Scripts.SmokeTests.SmokeTestsStage.ValidateSearchByMarkerName

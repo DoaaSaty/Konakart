@@ -1,0 +1,32 @@
+﻿[
+  {
+    "KeyName": "addToCartBtn",
+    "LocatorType": "CssSelector",
+    "LocatorValue": "a[class='add-to-cart-button-big button small-rounded-corners']",
+    "IsLazyLoaded": "true"
+  },
+  {
+    "KeyName": "gameName",
+    "LocatorType": "Id",
+    "LocatorValue": "page-title",
+    "IsLazyLoaded": "true"
+
+  },
+  {
+    "KeyName": "screeShots",
+    "LocatorType": "XPath",
+    "LocatorValue": "//div[@id='gallery_nav']/a",
+    "IsLazyLoaded": "true"
+
+  },
+  {
+     "KeyName": "quantityDdl",
+    "LocatorType": "Id",
+    "LocatorValue": "prodQuantityId",
+    "IsLazyLoaded": "true"
+  }
+  
+
+]
+
+

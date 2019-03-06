@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="25" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-10-04 11:35:29Z" end-time="2018-10-04 11:35:49Z" duration="20.334390">
+  <command-line><![CDATA[nunit3-console.exe  E:\Automation\Autoscoring_Automation\Automated.Tests\bin\Debug\Automated.Tests.dll --where "cat == LoginTests" --labels=All --out=TestResult.txt --work=E:\Automation\Autoscoring_Automation\Test.Automation.Output\Reports\2018-10-04-01-35PM]]></command-line>
+  <filter>
+    <cat>LoginTests</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1032" name="Automated.Tests.dll" fullname="E:\Automation\Autoscoring_Automation\Automated.Tests\bin\Debug\Automated.Tests.dll" runstate="Runnable" testcasecount="25" result="Passed" start-time="2018-10-04 11:35:30Z" end-time="2018-10-04 11:35:49Z" duration="19.532499" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="E:\Automation\Autoscoring_Automation\packages\NUnit.ConsoleRunner.3.9.0\tools" machine-name="DSATY-10-10170" user="doaa.saty" user-domain="ITWORX" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="E:\Automation\Autoscoring_Automation\Test.Automation.Output\Reports\2018-10-04-01-35PM" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="11304" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1033" name="Automated" fullname="Automated" runstate="Runnable" testcasecount="25" result="Passed" start-time="2018-10-04 11:35:30Z" end-time="2018-10-04 11:35:49Z" duration="19.515852" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <properties />
+      <test-suite type="TestSuite" id="0-1034" name="Tests" fullname="Automated.Tests" runstate="Runnable" testcasecount="25" result="Passed" start-time="2018-10-04 11:35:30Z" end-time="2018-10-04 11:35:49Z" duration="19.515130" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <properties />
+        <test-suite type="TestSuite" id="0-1035" name="Scripts" fullname="Automated.Tests.Scripts" runstate="Runnable" testcasecount="25" result="Passed" start-time="2018-10-04 11:35:30Z" end-time="2018-10-04 11:35:49Z" duration="19.515120" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties />
+          <test-suite type="TestSuite" id="0-1039" name="Login" fullname="Automated.Tests.Scripts.Login" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-10-04 11:35:30Z" end-time="2018-10-04 11:35:49Z" duration="19.515101" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties />
+            <test-suite type="TestFixture" id="0-1012" name="LoginTests" fullname="Automated.Tests.Scripts.Login.LoginTests" classname="Automated.Tests.Scripts.Login.LoginTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-10-04 11:35:30Z" end-time="2018-10-04 11:35:49Z" duration="19.496273" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+              <properties />
+              <test-case id="0-1013" name="LoginToApplication" fullname="Automated.Tests.Scripts.Login.LoginTests.LoginToApplication" methodname="LoginToApplication" classname="Automated.Tests.Scripts.Login.LoginTests" runstate="Runnable" seed="1039474403" result="Passed" start-time="2018-10-04 11:35:30Z" end-time="2018-10-04 11:35:49Z" duration="19.477442" asserts="1">
+                <properties>
+                  <property name="Order" value="1" />
+                  <property name="Category" value="LoginTests" />
+                  <property name="Retry" value="3" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
